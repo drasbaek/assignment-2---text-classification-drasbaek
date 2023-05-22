@@ -1,0 +1,9 @@
+Best parameters for mlp model: {'hidden_layer_sizes': (25, 25)}, 
+               precision    recall  f1-score   support
+
+        FAKE       0.89      0.92      0.90       614
+        REAL       0.92      0.89      0.91       653
+
+    accuracy                           0.91      1267
+   macro avg       0.91      0.91      0.91      1267
+weighted avg       0.91      0.91      0.91      1267

@@ -1,0 +1,9 @@
+Best parameters for logistic model: {'C': 4, 'intercept_scaling': 0.5, 'penalty': 'l1', 'solver': 'saga', 'tol': 0.01}, 
+               precision    recall  f1-score   support
+
+        FAKE       0.91      0.93      0.92       614
+        REAL       0.93      0.91      0.92       653
+
+    accuracy                           0.92      1267
+   macro avg       0.92      0.92      0.92      1267
+weighted avg       0.92      0.92      0.92      1267
