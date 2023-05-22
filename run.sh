@@ -10,13 +10,13 @@ echo "[INFO] Installing requirements..."
 python3 -m pip install -r requirements.txt
 
 # run script for vectorizing
-python3 src/vectorize-data.py
+python3 src/vectorize.py
 
 # run script for classifying using logistic regression
-python3 src/classify-data.py -m "logistic"
+python3 src/classify.py -m "logistic"
 
 # run script for classifying using neural network
-python3 src/classify-data.py -m "mlp"
+python3 src/classify.py -m "mlp"
 
 # deactivate virtual environment
 deactivate txt_classification_env
