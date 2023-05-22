@@ -21,7 +21,7 @@ The analysis sets out to demarcate real and fake news from the [Fake News Datase
 ├── assign_desc.md              
 ├── in
 │   ├── fake_or_real_news.csv           <----- the Fake News Dataset
-│   └── vectorized_data.npz             <----- the vectorized dataset (output for vectorize-data.py)
+│   └── vectorized_data.npz             <----- the vectorized dataset (output for vectorize.py)
 ├── models
 │   ├── logistic_model.joblib           
 │   ├── mlp_model.joblib                
